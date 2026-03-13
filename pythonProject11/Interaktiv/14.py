@@ -1,8 +1,7 @@
-A = int(input())
-B = int(input())
-C = int(input())
+ n = int(input())
 
-if A + B > C and A + C > B and B + C > A:
-    print("YES")
-else:
-    print("NO")
+i = 1
+while i * i <= n:
+    print(i * i, end='')
+    i += 1
+    
